@@ -4,4 +4,4 @@
 #Clone the Grafeas project to e.g C:\Projects\Grafeas
 #Install the Grpc.Tools NuGet package.
 #Run the command from the tools\windows_x64 folder in the GRpc.Tools folder e.g. C:\Users\Allister\.nuget\packages\grpc.tools\1.6.1\tools
-protoc -I=D:\Downloads\protoc-3.4.0-win32\include -I=C:\Projects\Grafeas\ -I C:\Projects\Grafeas\vendor\github.com\grpc-ecosystem\grpc-gateway\third_party\googleapis -I C:\Projects\Grafeas\vendor\github.com\googleapis\googleapis --csharp_out=C:\Projects\Testament\Testament.Core\Base\v1Alpha1  --grpc_out=C:\Projects\Testament\Testament.Core\Base\v1Alpha1 --plugin=protoc-gen-grpc=grpc_csharp_plugin.exe v1alpha1/proto/grafeas.proto
+protoc -I=D:\Downloads\protoc-3.4.0-win32\include -I=C:\Projects\Testament\Grafeas\ -I C:\Projects\Testament\Grafeas\vendor\github.com\grpc-ecosystem\grpc-gateway\third_party\googleapis -I C:\Projects\Testament\Grafeas\vendor\github.com\googleapis\googleapis --csharp_out=C:\Projects\Testament\Testament.Core\Base\v1Alpha1  --grpc_out=C:\Projects\Testament\Testament.Core\Base\v1Alpha1 --plugin=protoc-gen-grpc=grpc_csharp_plugin.exe v1alpha1/proto/grafeas.proto
